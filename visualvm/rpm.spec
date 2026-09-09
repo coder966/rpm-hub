@@ -1,5 +1,5 @@
 Name:          visualvm
-Version:       2.2.1
+Version:       2.2.2
 Release:       1%{?dist}
 Summary:       Visual VM
 License:       GPL-2.0
@@ -62,6 +62,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{name}.desktop
 
 
 %changelog
+* Wed Sep 09 2026 RPM Bot <rpm-bot@coder966.net> - 2.2.2
+- Update to 2.2.2
+
 * Sat Jun 13 2026 RPM Bot <rpm-bot@coder966.net> - 2.2.1
 - Update to 2.2.1
 
