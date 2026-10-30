@@ -5,7 +5,6 @@ Summary:       JetBrains Toolbox App
 License:       Commercial
 URL:           https://www.jetbrains.com/toolbox-app/
 Packager:      Khalid Alharisi <coder966@gmail.com>
-ExclusiveArch: x86_64
 
 Source0:       https://download.jetbrains.com/toolbox/jetbrains-toolbox-%{version}.tar.gz
 Source1:       jetbrains-toolbox.desktop

@@ -2,6 +2,9 @@
 Many apps don't ship RPMs, or at least not in a yum repo so that it can be kept updated using package managers like dnf.
 This is a collection of community-maintained unofficial RPMs built from official sources.
 
+> [!IMPORTANT]
+> Packages in this repository are built exclusively for `x86_64` systems.
+
 # Apps
 
 ## Postman
