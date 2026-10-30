@@ -11,7 +11,16 @@ sudo dnf copr enable coder966/postman
 sudo dnf install postman
 ```
 
+## JetBrains Toolbox
+
+```sh
+sudo dnf copr enable coder966/jetbrains-toolbox
+sudo dnf install jetbrains-toolbox
+```
+
 ## IntelliJ IDEA Ultimate
+
+We recommend using [JetBrains Toolbox](#jetbrains-toolbox), mentioned above, to install and manage IntelliJ IDEA Ultimate.
 
 ```sh
 sudo dnf copr enable coder966/intellij-idea-ultimate

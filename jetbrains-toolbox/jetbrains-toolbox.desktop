@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=JetBrains Toolbox
+GenericName=JetBrains IDE Manager
+Exec=/opt/jetbrains-toolbox/bin/jetbrains-toolbox
+Icon=jetbrains-toolbox
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=false

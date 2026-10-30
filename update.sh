@@ -6,7 +6,7 @@ echo "Checking for updates for ${appDirNameArg}"
 
 currentVersion="$(cat ${appDirNameArg}/rpm.spec | grep Version: | awk '{print $2}')"
 
-latestVersion="$(sh "./$appDirNameArg/get_last_version.sh")"
+latestVersion="$(sh "./$appDirNameArg/get_last_version.sh")" || exit $?
 
 echo "Current version: $currentVersion"
 echo "Latest version: $latestVersion"

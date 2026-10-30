@@ -20,6 +20,10 @@ jobs:
         run: |
           ./update.sh postman
 
+      - name: jetbrains-toolbox
+        run: |
+          ./update.sh jetbrains-toolbox
+
       - name: intellij-idea-ultimate
         run: |
           ./update.sh intellij-idea-ultimate
