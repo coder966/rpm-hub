@@ -52,4 +52,3 @@ Please make sure you have Java installed.
 sudo dnf copr enable coder966/keystore-explorer
 sudo dnf install keystore-explorer
 ```
-
