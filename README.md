@@ -53,4 +53,3 @@ sudo dnf copr enable coder966/keystore-explorer
 sudo dnf install keystore-explorer
 ```
 
-
