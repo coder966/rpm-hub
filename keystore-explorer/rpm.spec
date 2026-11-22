@@ -1,5 +1,5 @@
 Name:          keystore-explorer
-Version:       5.7.0
+Version:       5.7.1
 Release:       1%{?dist}
 Summary:       KeyStore Explorer
 License:       GPL-3.0-or-later
@@ -58,6 +58,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{name}.desktop
 
 
 %changelog
+* Sun Nov 22 2026 RPM Bot <rpm-bot@coder966.net> - 5.7.1
+- Update to 5.7.1
+
 * Mon Aug 24 2026 RPM Bot <rpm-bot@coder966.net> - 5.7.0
 - Update to 5.7.0
 
