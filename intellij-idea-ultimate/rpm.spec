@@ -1,5 +1,5 @@
 Name:          intellij-idea-ultimate
-Version:       2026.3
+Version:       2026.3.0.1
 Release:       1%{?dist}
 Summary:       IntelliJ IDEA Ultimate
 License:       Commercial
@@ -73,6 +73,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+* Tue Nov 24 2026 RPM Bot <rpm-bot@coder966.net> - 2026.3.0.1
+- Update to 2026.3.0.1
+
 * Thu Nov 05 2026 RPM Bot <rpm-bot@coder966.net> - 2026.3
 - Update to 2026.3
 
