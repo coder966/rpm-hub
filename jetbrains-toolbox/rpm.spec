@@ -1,5 +1,5 @@
 Name:          jetbrains-toolbox
-Version:       3.9.1.89198
+Version:       3.9.2.89815
 Release:       1%{?dist}
 Summary:       JetBrains Toolbox App
 License:       Commercial
@@ -46,5 +46,8 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 /opt/%{name}/*
 
 %changelog
+* Tue Nov 24 2026 RPM Bot <rpm-bot@coder966.net> - 3.9.2.89815
+- Update to 3.9.2.89815
+
 * Fri Oct 30 2026 coder966 <coder966@gmail.com> - 3.9.1.89198
 - Initial Release
